@@ -21,3 +21,15 @@ class HomePage extends StatelessWidget {
     );
   }
 }
+
+
+
+   // int days = 30;
+    // String name = "Codepur";
+    // double pi = 3.14;
+    // bool isMale = true;
+    // num temp = 30.5;
+
+    // var day = "Tuesday";
+    // const i = 3.14;
+    // final
