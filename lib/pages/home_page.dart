@@ -11,6 +11,7 @@ class HomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     final int days = 30;
     final String name = "Codepuri";
+    final dummyList = List.generate(3, (index) => CatalogModel.items[0]);
 
     return Scaffold(
       appBar: AppBar(
@@ -22,7 +23,7 @@ class HomePage extends StatelessWidget {
           itemCount: CatalogModel.items.length,
           itemBuilder: (context, index) {
             return ItemWidget(
-              item: CatalogModel.items[index],
+              item: dummyList[index],
             );
           },
         ),
